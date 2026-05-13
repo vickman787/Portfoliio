@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Brand Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="Portfolio home">
+        <img class="brand-mark" src="assets/vickman-avatar.jpg" alt="" />
+        <span>Vickman</span>
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="header-action" href="#contact">Contact</a>
+    </header>
+
+    <main id="top">
+      <section class="hero section-band">
+        <div class="hero-copy">
+          <p class="eyebrow">Engineer and developer</p>
+          <h1>Building AI, Web3, and product experiences for real-world digital systems.</h1>
+          <p class="hero-text">
+            I’m Vickman, an engineer and developer creating AI-powered
+            platforms, Web3 tools, crypto dashboards, and responsive web apps.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#work">View Work</a>
+            <a class="button secondary" href="#contact">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-media profile-hero" aria-label="Vickman profile visual">
+          <img src="assets/vickman-avatar.jpg" alt="Vickman profile avatar" />
+          <div class="profile-card">
+            <span>Vickman</span>
+            <strong>AI, Web3, and product engineering</strong>
+            <p>Building intelligent platforms, crypto tools, and responsive web systems.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="metrics" aria-label="Portfolio highlights">
+        <div>
+          <strong>4</strong>
+          <span>featured projects</span>
+        </div>
+        <div>
+          <strong>4</strong>
+          <span>live demos</span>
+        </div>
+        <div>
+          <strong>R2</strong>
+          <span>media backup planned</span>
+        </div>
+        <div>
+          <strong>D1</strong>
+          <span>project data planned</span>
+        </div>
+      </section>
+
+      <section class="section-band" id="work">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Selected work</p>
+            <h2>Featured projects</h2>
+          </div>
+        </div>
+
+        <div class="project-grid" data-project-grid>
+          <article class="project-card feature-card">
+            <div class="project-visual">
+              <img src="assets/govmind-screenshot.png" alt="GovMind project screenshot" />
+            </div>
+            <div class="project-content">
+              <span class="tag">AI Civic Tech</span>
+              <h3>GovMind</h3>
+              <p>
+                An AI-powered DAO governance platform for proposal review, risk
+                analysis, treasury impact, and contributor reputation using
+                GenLayer intelligent contracts.
+              </p>
+              <div class="tech-list" aria-label="GovMind technologies">
+                <span>React</span>
+                <span>JavaScript</span>
+                <span>GenLayer</span>
+                <span>Web3</span>
+              </div>
+              <div class="project-links">
+                <a href="https://gov-mind-three.vercel.app/" aria-label="View GovMind live demo">Live Demo</a>
+                <a href="https://github.com/vickman787/GovMind" aria-label="View GovMind GitHub repository">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual">
+              <img src="assets/memeforge-screenshot.png" alt="MEMEFORGE project screenshot" />
+            </div>
+            <div class="project-content">
+              <span class="tag coral">Creator Tool</span>
+              <h3>MEMEFORGE</h3>
+              <p>An AI-powered web app that turns everyday expressions into polished meme captions and matching generated visuals for shareable content in seconds.</p>
+              <div class="tech-list" aria-label="MEMEFORGE technologies">
+                <span>React</span>
+                <span>JavaScript</span>
+                <span>AI</span>
+                <span>Image Gen</span>
+              </div>
+              <div class="project-links">
+                <a href="https://memeforge7.vercel.app/" aria-label="View MEMEFORGE live demo">Live Demo</a>
+                <a href="https://github.com/vickman787/MEMEFORGE" aria-label="View MEMEFORGE GitHub repository">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual">
+              <img src="assets/agenttraderarena-screenshot.png" alt="AgentTraderArena project screenshot" />
+            </div>
+            <div class="project-content">
+              <span class="tag gold">AI Trading</span>
+              <h3>AgentTraderArena</h3>
+              <p>A futuristic AI crypto dashboard built with React and Vite, using Birdeye API data for live Solana movers, market stats, leaderboards, and AI trader profiles.</p>
+              <div class="tech-list" aria-label="AgentTraderArena technologies">
+                <span>React</span>
+                <span>Vite</span>
+                <span>JavaScript</span>
+                <span>Birdeye API</span>
+              </div>
+              <div class="project-links">
+                <a href="https://agent-trader-arena.vercel.app/" aria-label="View AgentTraderArena live demo">Live Demo</a>
+                <a href="https://github.com/vickman787/AgentTraderArena" aria-label="View AgentTraderArena GitHub repository">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual">
+              <img src="assets/arcescrow-screenshot.png" alt="ArcEscrow project screenshot" />
+            </div>
+            <div class="project-content">
+              <span class="tag">Blockchain</span>
+              <h3>ArcEscrow</h3>
+              <p>A peer-to-peer escrow app on Arc Network that secures buyer-seller USDC payments by locking funds in a smart contract until the deal is completed.</p>
+              <div class="tech-list" aria-label="ArcEscrow technologies">
+                <span>React</span>
+                <span>JavaScript</span>
+                <span>USDC</span>
+                <span>Smart Contract</span>
+              </div>
+              <div class="project-links">
+                <a href="https://arc-escrow-blue.vercel.app" aria-label="View ArcEscrow live demo">Live Demo</a>
+                <a href="https://github.com/vickman787/ArcEscrow" aria-label="View ArcEscrow GitHub repository">GitHub</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-band services" id="services">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">What you can offer</p>
+            <h2>Services and strengths</h2>
+          </div>
+        </div>
+        <div class="service-grid">
+          <article>
+            <span>01</span>
+            <h3>AI Product Engineering</h3>
+            <p>AI-powered apps, agent dashboards, proposal intelligence, and creator tools.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Web3 and Smart Contracts</h3>
+            <p>DAO governance, escrow workflows, USDC payments, and onchain integrations.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Frontend Development</h3>
+            <p>React and Vite interfaces, dashboards, landing pages, and responsive product experiences.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-band contact-section" id="contact">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s build something useful.</h2>
+        </div>
+        <div class="contact-actions" aria-label="Contact links">
+          <a class="button primary" href="mailto:vickmancrypto@gmail.com">Email Me</a>
+          <a class="button secondary" href="https://x.com/stratton001" target="_blank" rel="noreferrer">Twitter/X</a>
+          <a class="button secondary" href="https://github.com/vickman787" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Vickman builds AI, Web3, and product systems.</p>
+      <div class="footer-links">
+        <a href="mailto:vickmancrypto@gmail.com">Email</a>
+        <a href="https://x.com/stratton001" target="_blank" rel="noreferrer">Twitter/X</a>
+        <a href="https://github.com/vickman787" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="#top">Back to top</a>
+      </div>
+    </footer>
+
+    <script src="script.js?v=2"></script>
+  </body>
+</html>
