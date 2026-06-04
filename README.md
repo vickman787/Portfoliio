@@ -6,6 +6,7 @@ Personal portfolio for Vickman, an engineer and developer building AI, Web3, cry
 
 - GovMind
 - MEMEFORGE
+- Football OS
 - AgentTraderArena
 - ArcEscrow
 
