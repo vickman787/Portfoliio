@@ -9,6 +9,7 @@ Personal portfolio for Vickman, an engineer and developer building AI, Web3, cry
 - Football OS
 - SignalForge AI
 - Risk Whisperer
+- Helm
 - AgentTraderArena
 - ArcEscrow
 
