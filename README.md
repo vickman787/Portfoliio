@@ -12,6 +12,7 @@ Personal portfolio for Vickman, an engineer and developer building AI, Web3, cry
 - Risk Whisperer
 - Helm
 - AgentTraderArena
+- QIFlow
 - ArcEscrow
 
 ## Stack
