@@ -5,6 +5,7 @@ Personal portfolio for Vickman, an engineer and developer building AI, Web3, cry
 ## Featured Projects
 
 - GovMind
+- CiteFlowAI
 - MEMEFORGE
 - CUTROOM
 - Football OS
